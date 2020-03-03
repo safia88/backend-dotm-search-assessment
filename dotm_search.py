@@ -55,7 +55,7 @@ def main():
             file_path = os.path.join(user_args.dir, file)
             if search_file(file_path, user_args.text):
                 total_file_matches += 1
-    print("Total dotm files searched: " + str(total_file_matches))
+    print("Total dotm files searched: " + str(total_file_searches))
     print("Total dotm files matched: " + str(total_file_matches))
 
 
